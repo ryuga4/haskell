@@ -1,0 +1,85 @@
+
+==================== FINAL INTERFACE ====================
+2017-05-31 18:58:30.294347287 UTC
+
+interface main@main:Main 8002
+  interface hash: 70d972cae53f5e6c021290d012c886d1
+  ABI hash: be4f95897756cb66c44558544be50e19
+  export-list hash: c5761578166a1881fa0cc9be5e3af0fc
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 6d013e9cd3ccddc638e4638f0de94e08
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Main.main
+module dependencies:
+package dependencies: Haskell-0.1.0.0@Haskell-0.1.0.0-Ge8EcrA9EkFD6cOkggVpii
+                      array-0.5.1.1@array-0.5.1.1 base-4.9.1.0*
+                      deepseq-1.4.2.0@deepseq-1.4.2.0 ghc-prim-0.5.0.0
+                      integer-gmp-1.0.0.1 random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog*
+                      time-1.6.0.1@time-1.6.0.1
+orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Calendar.Gregorian
+         time-1.6.0.1@time-1.6.0.1:Data.Time.Format.Parse
+         time-1.6.0.1@time-1.6.0.1:Data.Time.LocalTime.LocalTime
+family instance modules: base-4.9.1.0:Control.Applicative
+                         base-4.9.1.0:Data.Complex base-4.9.1.0:Data.Either
+                         base-4.9.1.0:Data.Functor.Const base-4.9.1.0:Data.Functor.Identity
+                         base-4.9.1.0:Data.List.NonEmpty base-4.9.1.0:Data.Monoid
+                         base-4.9.1.0:Data.Semigroup base-4.9.1.0:Data.Type.Equality
+                         base-4.9.1.0:Data.Version base-4.9.1.0:Data.Void
+                         base-4.9.1.0:GHC.Exts base-4.9.1.0:GHC.Generics
+                         base-4.9.1.0:GHC.IO.Exception base-4.9.1.0:GHC.TypeLits
+import  -/  Haskell-0.1.0.0@Haskell-0.1.0.0-Ge8EcrA9EkFD6cOkggVpii:Game a93d92e0074974c7f319851b008e3d83
+import  -/  Haskell-0.1.0.0@Haskell-0.1.0.0-Ge8EcrA9EkFD6cOkggVpii:Lib f853d238a9d50cfe4e90bfe04b6e2f3c
+import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
+import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
+import  -/  random-1.1@random-1.1-9tceXaeYIMZ4JrKq20Egog:System.Random 08e50ea8c400b4b56120dee22f012f01
+d6831ef04cb9301b090dfae6f7bb7ec7
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Main.$trModule2 Main.$trModule1) -}
+847d9fc3b8e6f0b424199f36b4999bb2
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "Main"#) -}
+24ef6042833e75ffd7aa98b83ecca98d
+  $trModule2 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS "main"#) -}
+8a8b4e7d2612ef49676e42c4cccda7b2
+  main :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+130f9f832bd1fcd0fe697b108ff0e7a8
+  main1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1, Unfolding: (Game.game1 @ () Main.main2) -}
+267516e85c08037eb6590ba580653d65
+  main2 :: [[Game.Status]]
+  {- Unfolding: (GHC.List.reverse1
+                   @ [Game.Status]
+                   Main.main3
+                   (GHC.Types.[] @ [Game.Status])) -}
+26e3920bf2931dc47daf9b78e298b12c
+  main3 :: [[Game.Status]]
+  {- Unfolding: (Game.$wfield2 10#) -}
+f86360cd258dd6be9bd0ad8dc6b5dbfd
+  main4 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.TopHandler.runMainIO1
+                   @ ()
+                   Main.main1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R))) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+

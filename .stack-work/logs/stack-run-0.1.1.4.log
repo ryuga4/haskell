@@ -1,0 +1,16 @@
+Configuring stack-run-0.1.1.4...
+Building stack-run-0.1.1.4...
+Preprocessing executable 'stack-run' for stack-run-0.1.1.4...
+
+unix/System/Console/Questioner.hs:4:14: warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+[1 of 4] Compiling System.Console.Questioner.Util ( unix/System/Console/Questioner/Util.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/stack-run/stack-run-tmp/System/Console/Questioner/Util.o )
+[2 of 4] Compiling System.Console.Questioner.ProgressIndicators ( unix/System/Console/Questioner/ProgressIndicators.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/stack-run/stack-run-tmp/System/Console/Questioner/ProgressIndicators.o )
+[3 of 4] Compiling System.Console.Questioner ( unix/System/Console/Questioner.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/stack-run/stack-run-tmp/System/Console/Questioner.o )
+[4 of 4] Compiling Main             ( src/Main.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/stack-run/stack-run-tmp/Main.o )
+
+unix/System/Console/Questioner.hs:4:14: warning:
+    -XOverlappingInstances is deprecated: instead use per-instance pragmas OVERLAPPING/OVERLAPPABLE/OVERLAPS
+Linking .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/stack-run/stack-run ...
+Installing executable(s) in
+/home/me/Projekty/Haskell/.stack-work/install/x86_64-linux-nopie/lts-8.15/8.0.2/bin
